@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Engineering in Kenya: Powering the Nation's Future</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: linear-gradient(135deg, #006600 0%, #009933 51%, #00cc33 100%);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('/api/placeholder/1200/300') center/cover no-repeat;
+            opacity: 0.2;
+            z-index: 0;
+        }
+
+        header * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .flag-colors {
+            display: flex;
+            height: 10px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .flag-colors div {
+            flex: 1;
+        }
+
+        .flag-black {
+            background-color: #000000;
+        }
+
+        .flag-red {
+            background-color: #ff0000;
+        }
+
+        .flag-green {
+            background-color: #009933;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #006600;
+            border-bottom: 2px solid #006600;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        .intro {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .resource-links {
+            background-color: #e9fff0;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 40px 0;
+        }
+
+        .resource-links ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .resource-links li {
+            margin-bottom: 10px;
+        }
+
+        .resource-links a {
+            color: #006600;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .resource-links a:hover {
+            color: #004400;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #006600;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #004400;
+        }
+
+        .quote {
+            font-style: italic;
+            border-left: 4px solid #006600;
+            padding-left: 20px;
+            margin: 30px 0;
+            color: #555;
+        }
+
+        .stat-box {
+            background-color: #f0f8f0;
+            border-left: 4px solid #006600;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .stat-title {
+            font-weight: bold;
+            color: #006600;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Energy Engineering in Kenya</h1>
+        <p>Harnessing Kenya's Rich Renewable Resources for a Sustainable Future</p>
+        <div class="flag-colors">
+            <div class="flag-black"></div>
+            <div class="flag-red"></div>
+            <div class="flag-green"></div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <p>Kenya stands at the forefront of renewable energy adoption in East Africa, with ambitious goals to achieve
+            100% green energy by 2030. The country's unique geography provides abundant renewable resources, from the
+            geothermal fields of the Great Rift Valley to strong wind corridors and high solar irradiation. Energy
+            engineers across Kenya are pioneering innovative solutions that address local challenges while contributing
+            to the nation's sustainable development goals.</p>
+    </section>
+
+    <h2>Kenya's Energy Landscape</h2>
+
+    <div class="stat-box">
+        <div class="stat-title">Key Energy Statistics:</div>
+        <ul>
+            <li>Kenya's electricity access rate: 75% (up from 20% in 2013)</li>
+            <li>Renewable energy share in the electricity mix: 90%+</li>
+            <li>Installed capacity: ~2,990 MW (as of 2024)</li>
+            <li>Target: 100% renewable energy by 2030</li>
+        </ul>
+    </div>
+
+    <p>Kenya has made remarkable progress in expanding electricity access while maintaining one of the world's highest
+        shares of renewable energy in its electricity mix. The country's energy sector is regulated by the Energy and
+        Petroleum Regulatory Authority (EPRA), with Kenya Power and Lighting Company (KPLC) serving as the main
+        distributor, and Kenya Electricity Generating Company (KenGen) as the leading producer of electricity.</p>
+
+    <h2>Major Areas of Energy Engineering in Kenya</h2>
+
+    <div class="grid-container">
+        <div class="card">
+            <img src="/api/placeholder/400/320" alt="Geothermal Energy in Kenya">
+            <div class="card-content">
+                <h3>Geothermal Energy</h3>
+                <p>Kenya ranks 7th globally in geothermal capacity with installations in the Great Rift Valley. Kenyan
+                    engineers have developed expertise in drilling, reservoir management, and geothermal power plant
+                    operation at sites like Olkaria.</p>
+                <a href="#geothermal" class="cta-button">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/api/placeholder/400/320" alt="Solar Energy in Kenya">
+            <div class="card-content">
+                <h3>Solar Energy</h3>
+                <p>With high solar irradiation averaging 4-6 kWh/m²/day, Kenya has seen rapid growth in both
+                    grid-connected and off-grid solar solutions. Engineers are developing innovative last-mile
+                    distribution models for rural electrification.</p>
+                <a href="#solar" class="cta-button">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/api/placeholder/400/320" alt="Wind Energy in Kenya">
+            <div class="card-content">
+                <h3>Wind Energy</h3>
+                <p>Kenya hosts Africa's largest wind farm at Lake Turkana (310 MW). Energy engineers focus on optimizing
+                    turbines for local conditions and developing smaller wind projects across the country's wind
+                    corridors.</p>
+                <a href="#wind" class="cta-button">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="card">
+            <img src="/api/placeholder/400/320" alt="Hydropower in Kenya">
+            <div class="card-content">
+                <h3>Hydropower</h3>
+                <p>Traditionally Kenya's largest source of electricity, hydropower continues to be important with
+                    engineering innovations focusing on small-scale and run-of-river projects that minimize
+                    environmental impacts while providing reliable power.</p>
+                <a href="#hydro" class="cta-button">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/api/placeholder/400/320" alt="Bioenergy in Kenya">
+            <div class="card-content">
+                <h3>Bioenergy</h3>
+                <p>Kenyan engineers are developing solutions to convert agricultural waste from tea, sugar, and other
+                    industries into electricity. Biogas systems are also being designed for household and community use
+                    across rural Kenya.</p>
+                <a href="#bioenergy" class="cta-button">Learn More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/api/placeholder/400/320" alt="Mini-grids in Kenya">
+            <div class="card-content">
+                <h3>Mini-Grids & Smart Systems</h3>
+                <p>To reach remote communities, Kenyan engineers are pioneering mini-grid technologies that combine
+                    solar, battery storage, and smart metering systems with mobile payment integration for sustainable
+                    business models.</p>
+                <a href="#mini-grids" class="cta-button">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="geothermal">Geothermal Energy Engineering in Kenya</h2>
+    <p>Kenya is Africa's geothermal powerhouse, with the Great Rift Valley providing ideal conditions for harnessing
+        heat from the Earth's core. Kenyan energy engineers have developed specialized expertise in:</p>
+    <ul>
+        <li>Geothermal resource assessment and exploratory drilling techniques adapted to East African geology</li>
+        <li>Design and operation of flash and binary cycle geothermal plants</li>
+        <li>Direct use applications including greenhouse heating at the Oserian flower farm</li>
+        <li>Managing challenging hydrogen sulfide emissions and mineral scaling issues specific to Kenyan geothermal
+            resources</li>
+    </ul>
+
+    <div class="stat-box">
+        <div class="stat-title">Geothermal Power in Kenya:</div>
+        <ul>
+            <li>Current capacity: ~950 MW</li>
+            <li>Potential capacity: 10,000+ MW</li>
+            <li>Major facilities: Olkaria I-V, Menengai</li>
+            <li>Key player: KenGen (operates 85% of Kenya's geothermal capacity)</li>
+        </ul>
+    </div>
+
+    <div class="quote">
+        "Kenya's geothermal success demonstrates how African nations can leverage their natural resources through
+        locally developed engineering expertise. The Olkaria complex stands as a testament to Kenyan engineering
+        excellence." - Dr. James Mwangi, Kenya Geothermal Development Company
+    </div>
+
+    <h2 id="solar">Solar Energy Engineering in Kenya</h2>
+    <p>With approximately 300 days of sunshine annually and strong solar irradiation across most of the country, Kenya
+        offers ideal conditions for solar energy. Kenyan solar engineers focus on:</p>
+    <ul>
+        <li>Design of PV systems optimized for local conditions, including dust mitigation for the arid regions</li>
+        <li>Pay-As-You-Go (PAYG) solar home systems that have revolutionized rural electrification</li>
+        <li>Grid-connected solar farms like the 50 MW Garissa Solar Plant</li>
+        <li>Solar-powered water pumping solutions for agriculture and community water supplies</li>
+        <li>Solar mini-grid systems for rural communities beyond the national grid</li>
+    </ul>
+
+    <div class="stat-box">
+        <div class="stat-title">Solar Innovation Highlights:</div>
+        <ul>
+            <li>M-KOPA Solar: Pioneered PAYG solar financing through mobile money, connecting 1M+ homes</li>
+            <li>Garissa Solar Plant: East Africa's largest grid-connected solar farm (50 MW)</li>
+            <li>Strathmore University's rooftop solar: Kenya's first net metering project</li>
+            <li>SunCulture: Solar-powered irrigation systems designed for smallholder farmers</li>
+        </ul>
+    </div>
+
+    <h2 id="wind">Wind Energy Engineering in Kenya</h2>
+    <p>Kenya hosts some of Africa's strongest and most consistent wind regimes, particularly in northwestern regions
+        near Lake Turkana and along mountain ridges. Wind energy engineering in Kenya focuses on:</p>
+    <ul>
+        <li>Site assessment and optimization for Kenya's unique terrain and wind patterns</li>
+        <li>Construction techniques adapted for remote locations with limited infrastructure</li>
+        <li>Integration of large-scale wind into Kenya's grid system</li>
+        <li>Small-scale wind applications for community-level power</li>
+    </ul>
+
+    <div class="stat-box">
+        <div class="stat-title">Wind Power Projects:</div>
+        <ul>
+            <li>Lake Turkana Wind Power: 310 MW capacity, 365 turbines, Africa's largest wind farm</li>
+            <li>Ngong Hills Wind Farm: 25.5 MW capacity near Nairobi</li>
+            <li>Kipeto Wind Farm: 100 MW project in Kajiado County</li>
+            <li>Planned projects in Meru, Lamu, and Marsabit counties</li>
+        </ul>
+    </div>
+
+    <h2 id="hydro">Hydropower Engineering in Kenya</h2>
+    <p>While hydropower's share in Kenya's energy mix has declined relative to geothermal and other renewables, it
+        remains a crucial component of the country's power system. Current hydropower engineering focuses on:</p>
+    <ul>
+        <li>Climate-resilient designs that can withstand increasingly variable rainfall patterns</li>
+        <li>Small-scale run-of-river projects with minimal environmental footprint</li>
+        <li>Retrofitting and modernizing existing hydropower infrastructure</li>
+        <li>Innovative financing mechanisms for community-owned micro-hydro projects</li>
+    </ul>
+
+    <div class="stat-box">
+        <div class="stat-title">Hydropower Infrastructure:</div>
+        <ul>
+            <li>Total capacity: ~830 MW</li>
+            <li>Major facilities: Seven Forks dams (Masinga, Kamburu, Gitaru, Kindaruma, Kiambere)</li>
+            <li>Small hydro potential: 3,000+ MW across hundreds of sites</li>
+            <li>Notable project: Turkwel Gorge (106 MW)</li>
+        </ul>
+    </div>
+
+    <h2 id="bioenergy">Bioenergy Engineering in Kenya</h2>
+    <p>With agriculture as a mainstay of Kenya's economy, agricultural residues
